@@ -1,4 +1,4 @@
-import Spider_by_VZ.Main_Methods as pagesToDic
+import Main_Methods as pagesToDic
 import warnings
 warnings.filterwarnings("ignore")
 
@@ -29,8 +29,8 @@ if __name__ == "__main__":
     # 先将web of science 检索结果进行翻页一下，以获得最后的page=字符串，
     # 并将此时的连接截取除了最后的数字外，赋值给url——root
 
-    url_root = "http://apps.webofknowledge.com/summary.do?product=WOS&parentProduct=WOS&search_mode=GeneralSearch&parentQid=&qid=1&SID=8E1WyxAPwFrQXRlfZw1&&update_back2search_link_param=yes&page="
-    nums_page = 1
+    url_root = "http://apps.webofknowledge.com/summary.do?product=WOS&parentProduct=WOS&search_mode=GeneralSearch&parentQid=&qid=3&SID=F5mUfgJhoA8TBWCDkAp&&update_back2search_link_param=yes&page="
+    nums_page = 2
     #指定文献信息表格存的路径以及名字
     filename = "article_information/paperInfo.csv"
 
